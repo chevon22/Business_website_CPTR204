@@ -1,0 +1,21 @@
+{
+  "name": "web_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": " tailwindcss -i ./src/style/input.css -o ./src/dist/output.css",
+    "watch": " tailwindcss -i ./src/style/input.css -o ./src/dist/output.css --watch",
+    "build-prod": "tailwindcss -o ./src/dist/build.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "daisyui": "^2.41.0",
+    "eslint-config-airbnb": "^19.0.4"
+  }
+}
